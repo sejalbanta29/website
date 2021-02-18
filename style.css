@@ -1,0 +1,308 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.first
+{
+   
+    background-color: lightgray;
+   height: 39px;
+ 
+   
+}
+
+.first ul
+{
+    list-style: none;
+    display: flex;
+    padding: 5px;
+    margin-left: 12%;
+ }
+ 
+ .first li
+ {
+     border-right: 2px solid rgb(169, 166, 166);
+     height: 25px;
+     
+     
+     
+ }
+ 
+ a
+ {
+     text-decoration: none;
+     color: rgb(143, 139, 139);
+     font-size: 10.5px;
+ }
+ 
+ .first ul li a
+ {
+     display: block;
+     padding: 7px;
+     margin-left: 1px;
+     
+     
+ }
+ 
+ .first li:last-child
+ {
+     border: none;
+ }
+ 
+ .first #icon
+ {
+    float: right;
+    margin-top: -1px;
+    
+ 
+ }
+ 
+ #icon
+ {
+     
+     margin-right: 100px;
+ }
+ 
+ 
+ #icon li
+ {
+     border: none;
+     margin-top: -30px;
+     color: #7bb632;
+     margin-right: 15px;
+    }    
+
+    .second
+    {
+        top: 39px;
+        height: 82px;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .second img
+    {
+        margin-left: 11%;
+        padding: 14px;
+       height: 56px;
+    }
+    
+    .second ul
+    {
+        list-style: none;
+        display: inline-flex;
+        padding: 20px;
+        margin-top: 7px;
+       margin-right: 1%;
+    }
+    
+    .second li i
+    {
+        color: #7bb632;
+    }
+    
+    h5, span{
+        margin-left: 10px;
+        font-size: 13px;
+        color: gray;
+    }
+    
+    #list
+    {
+        margin-left: 90px;
+    }
+    
+    button {
+       
+        color: #7bb632;
+        border:  solid #7bb632;
+        font-family:'Montserrat', sans-serif;
+       height: 40px;
+       width: 140px;
+        text-align: center;
+       margin-top: 17px;
+        font-size: 10px;
+        background-color : transparent;
+        padding: 2px;
+        outline: none;
+        margin-right: 115px;
+    
+    }
+    
+     
+    .third
+    {
+       
+        height: 60px;
+        background-color: #7bb632;
+        width: 100%;
+     
+        
+        
+    }
+    
+    .list
+    {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        margin: 0 147px 0 147px;
+        padding: 16px;
+    }
+    
+    
+    
+    .list li a
+    {
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        
+    }
+    
+    
+    .third i
+    {
+        float: right;
+        margin-top: -30px;
+        margin-right: 115px;
+        color: white;   
+    }
+    
+    .banner
+    {
+        position: relative;
+        width: 100%;
+        height: 500px;
+        background: rgb(75, 71, 71);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .banner img
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.5;
+    }
+    
+    .banner .content
+    {
+        position: relative;
+        max-width: 750px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    
+    .banner .content h2
+    {
+        color: white;
+        font-size: 50px;
+        font-weight: 500;
+        
+    }
+    
+    .banner .content p
+    {
+        color: white;
+        font-size: 18px;
+       
+    }
+    
+    .btn
+    {
+        color: #fff;
+        border:  solid #fff;
+        font-family:'Montserrat', sans-serif;
+       height: 40px;
+       width: 150px;
+        text-align: center;
+       margin-top: 17px;
+        font-size: 10px;
+        background-color : transparent;
+        padding: 2px;
+        outline: none;
+        margin-right: 5%;   
+    }
+    
+    .btn:hover
+    {
+        background-color: #7bb632;
+        color: #fff;
+        border:  solid #7bb632;
+    }
+    
+    .container
+    {
+        position: relative;
+        height: 120px;
+        left: 145px;
+    }
+    .boxes
+    {
+        display: flex;
+      position: absolute;
+       bottom: 1px;  
+    }
+    
+    .box
+    {
+       
+        height: 200px;
+        width: 250px;
+        color: white;
+        
+    }
+    
+    #box1
+    {
+        background-color: #4e85f9;
+    }
+    
+    #box2
+    {
+        background-color: #fc4444;
+    }
+    
+    #box3
+    {
+        background-color: #7bb632;
+    }
+
+    #box4
+    {
+        background-color: #fa9f66;
+    }
+    
+    .box i
+    {
+      color: white;
+      margin-left: 95px;
+      margin-top: 8px;
+    }
+    
+    .box p
+    {
+        text-align: center;
+        margin-top: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .box .text
+    {
+        font-weight: bold;
+    }
+    
+    .box .text2
+    {
+        font-size: 0.8em; }
+                    
